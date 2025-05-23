@@ -1,0 +1,9 @@
+LIST OF COMMANDS FOR SIMULATION
+
+FIGURE 8.2
+python3 ./mlfq.py -l 0,200,0 -n 3 -M 0 -q 10 -c
+
+FIGURE 8.3 (left)
+python3 ./mlfq.py -l 0,200,0:100,20,0 -n 3 -M 0 -q 10 -c
+
+FIGURE 8.3 (right)

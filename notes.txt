@@ -1,0 +1,1 @@
+- Cannot do LOTTERY SCHEDULING (ch 9) w/o studying concurrency first
