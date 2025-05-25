@@ -7,3 +7,13 @@ FIGURE 8.3 (left)
 python3 ./mlfq.py -l 0,200,0:100,20,0 -n 3 -M 0 -q 10 -c
 
 FIGURE 8.3 (right)
+python3 ./mlfq.py -l 0,200,0:50,25,1 -i 5 -n 3 -q 10 -a 1 -c
+
+FIGURE 8.4 (left)
+python3 ./mlfq.py -l 0,200,0:100,50,1:100,50,1 -i 1 -n 3 -q 10 -a 10 -c
+
+FIGURE 8.4 (right)
+python3 ./mlfq.py -l 0,200,0:100,50,1:100,50,1 -i 1 -n 3 -q 10 -a 10 -B -c
+
+FIGURE 8.5 (right) ... cannot do left since you cannot disable allotment!!
+python3 ./mlfq.py -l 0,200,0:100,50,1:100,50,1 -i 1 -n 3 -q 10 -a 10 -c
